@@ -1,6 +1,7 @@
 {
   "name": "Chakra Meditation App",
   "short_name": "Chakra App",
+  "description": "A simple PWA made using React & JavaScript",
   "icons": [
     {
       "src": "favicon.ico",
@@ -61,6 +62,6 @@
   "theme_color": "#1e293b",
   "background_color": "#1e293b",
   "display": "standalone",
-  "scope": "/",
+  "scope": "https://sandeep-shaw10.github.io/chakra-app/",
   "start_url": "/https://sandeep-shaw10.github.io/chakra-app/"
 }
