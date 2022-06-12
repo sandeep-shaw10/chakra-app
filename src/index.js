@@ -9,10 +9,11 @@ import { BrowserRouter } from "react-router-dom";
 
 const container =  document.getElementById('root');
 const root = createRoot(container);
+const appName = "chakra-app"
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={`/${appName}`}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
