@@ -63,5 +63,5 @@
   "background_color": "#1e293b",
   "display": "standalone",
   "scope": "https://sandeep-shaw10.github.io/chakra-app/",
-  "start_url": "/https://sandeep-shaw10.github.io/chakra-app/"
+  "start_url": "https://sandeep-shaw10.github.io/chakra-app/"
 }
