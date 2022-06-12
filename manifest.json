@@ -1,0 +1,66 @@
+{
+  "name": "Chakra Meditation App",
+  "short_name": "Chakra App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192_.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo512_.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts" : [
+    {
+      "name": "Get Started",
+      "short_name": "Chakras",
+      "url": "/chakra",
+      "description": "List of 7 Chakra",
+      "icons":[{
+        "src": "power.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      }]
+    },
+    {
+      "name": "Get in Touch",
+      "short_name": "Contact",
+      "url": "/contact",
+      "description": "Contribute & Enquiry",
+      "icons":[{
+        "src": "call.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      }]
+    }
+  ],
+  "theme_color": "#1e293b",
+  "background_color": "#1e293b",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/https://sandeep-shaw10.github.io/chakra-app/"
+}
