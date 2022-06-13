@@ -1,8 +1,14 @@
 {
   "files": {
-    "main.css": "/chakra-app/static/css/main.7f2a1c80.css",
-    "main.js": "/chakra-app/static/js/main.86d5a567.js",
-    "static/media/test1.wav": "/chakra-app/static/media/test1.8847f0e9a734d9cb9657.wav",
+    "main.css": "/chakra-app/static/css/main.a2a99e8e.css",
+    "main.js": "/chakra-app/static/js/main.534b3713.js",
+    "static/media/ANG.mp3": "/chakra-app/static/media/ANG.81d1b519444e6caab9da.mp3",
+    "static/media/LAM.mp3": "/chakra-app/static/media/LAM.c187a3813b04a34c05b0.mp3",
+    "static/media/RAM.mp3": "/chakra-app/static/media/RAM.3fb82f712a8d45e446a0.mp3",
+    "static/media/VAM.mp3": "/chakra-app/static/media/VAM.f0aa23ba5af18c8b3b6c.mp3",
+    "static/media/YAM.mp3": "/chakra-app/static/media/YAM.b9e7c2bd493f81e2275b.mp3",
+    "static/media/OM.mp3": "/chakra-app/static/media/OM.e781831761405110a2b8.mp3",
+    "static/media/HAM.mp3": "/chakra-app/static/media/HAM.34e88fde7f789a8b91e1.mp3",
     "service-worker.js": "/chakra-app/service-worker.js",
     "static/media/Chakra-01.png": "/chakra-app/static/media/Chakra-01.6dba431f9f9a19aa1991.png",
     "static/media/Chakra-03.png": "/chakra-app/static/media/Chakra-03.b0007b294902cb83c64f.png",
@@ -12,11 +18,11 @@
     "static/media/Chakra-07.png": "/chakra-app/static/media/Chakra-07.59ea6c2987365f428ac9.png",
     "static/media/Chakra-02.png": "/chakra-app/static/media/Chakra-02.bc3a92ef7e1fba4a282c.png",
     "index.html": "/chakra-app/index.html",
-    "main.7f2a1c80.css.map": "/chakra-app/static/css/main.7f2a1c80.css.map",
-    "main.86d5a567.js.map": "/chakra-app/static/js/main.86d5a567.js.map"
+    "main.a2a99e8e.css.map": "/chakra-app/static/css/main.a2a99e8e.css.map",
+    "main.534b3713.js.map": "/chakra-app/static/js/main.534b3713.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f2a1c80.css",
-    "static/js/main.86d5a567.js"
+    "static/css/main.a2a99e8e.css",
+    "static/js/main.534b3713.js"
   ]
 }
