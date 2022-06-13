@@ -1,6 +1,8 @@
 import React from 'react'
 import MainLayout from '../components/Layout/MainLayout'
 import HomeYoga from '../static/HomeYoga'
+import ContactIcon from '../static/ContactIcon'
+import AboutIcon from '../static/AboutIcon'
 import { Link } from 'react-router-dom'
 
 
@@ -33,7 +35,7 @@ export default function Home() {
             <div className='grid grid-cols-1 md:grid-cols-2 md:mx-12'>
 
             <div className='md:order-last'>
-              <HomeYoga />
+              <AboutIcon />
             </div>
 
               <div className='grid justify-items-center my-8'>
@@ -56,7 +58,7 @@ export default function Home() {
           <div className='my-12 text-center'>
             <div className='grid grid-cols-1 md:grid-cols-2 md:mx-12'>
             <div>
-              <HomeYoga />
+              <ContactIcon />
             </div>
             <div className='grid justify-items-center my-8 md:order-last'>
               <div className='flex flex-col items-center justify-center' >

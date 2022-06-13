@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../components/Layout/MainLayout";
-import HomeYoga from "../static/HomeYoga";
+import ContactIcon from "../static/ContactIcon";
 import { Link } from "react-router-dom";
 
 export default function Contact() {
@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="my-12 text-center">
           <div className="grid grid-cols-1 md:grid-cols-2 md:mx-12">
             <div>
-              <HomeYoga />
+              <ContactIcon />
             </div>
 
             <div className="grid justify-items-center my-8">

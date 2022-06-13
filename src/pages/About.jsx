@@ -1,6 +1,6 @@
 import React from 'react'
 import MainLayout from '../components/Layout/MainLayout'
-import HomeYoga from '../static/HomeYoga'
+import AboutIcon from '../static/AboutIcon'
 import { Link } from 'react-router-dom'
 import { PWA, TailwindCSS, ReactJs } from '../static/icons'
 
@@ -14,7 +14,7 @@ export default function About() {
             <div className='grid grid-cols-1 md:grid-cols-2 md:mx-12'>
 
             <div>
-              <HomeYoga />
+              <AboutIcon />
             </div>
 
               <div className='grid justify-items-center my-8'>
