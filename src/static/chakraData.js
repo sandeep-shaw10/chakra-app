@@ -1,4 +1,10 @@
-import AUDIO from './audio/test1.wav'
+import LAM from './audio/LAM.mp3'
+import VAM from './audio/VAM.mp3'
+import RAM from './audio/RAM.mp3'
+import YAM from './audio/YAM.mp3'
+import HAM from './audio/HAM.mp3'
+import AUM from './audio/OM.mp3'
+import ANG from './audio/ANG.mp3'
 import C1 from './image/Yoga/Chakra-07.png'
 import C2 from './image/Yoga/Chakra-06.png'
 import C3 from './image/Yoga/Chakra-05.png'
@@ -37,7 +43,7 @@ const ChakraData = [
         position: "Base of Spine on Perineum",
         quality: ["Survival", "Grounding", "Trust"],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: LAM,
         petalIcon: L1,
         positionImg: C1,
         element: "Earth"
@@ -61,7 +67,7 @@ const ChakraData = [
         position: "Hips",
         quality: ["Creativity", "Pleasure", "Sexuality"],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: VAM,
         petalIcon: L2,
         positionImg: C2,
         element: "Water"
@@ -85,7 +91,7 @@ const ChakraData = [
         position: "Stomach Area",
         quality: ["Will", "Confidence", "Self-worth"],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: RAM,
         petalIcon: L3,
         positionImg: C3,
         element: "Fire"
@@ -109,7 +115,7 @@ const ChakraData = [
         position: "Center of Chest",
         quality: ["Love", "Inner-Peace", "Joy", ],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: YAM,
         petalIcon: L4,
         positionImg: C4,
         element: "Air"
@@ -133,7 +139,7 @@ const ChakraData = [
         position: "Center of Chest",
         quality: ["Truth", "Expression", "Vibrance"],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: HAM,
         petalIcon: L5,
         positionImg: C5,
         element: "Light"
@@ -157,7 +163,7 @@ const ChakraData = [
         position: "Center of Forehead",
         quality: ["Intuition", "Imagination", "Wisdom"],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: AUM,
         petalIcon: L6,
         positionImg: C6,
         element: "Light"
@@ -181,7 +187,7 @@ const ChakraData = [
         position: "Top of Head",
         quality: ["Spirituality", "Consiousness"],
         bodyWell: ["Spinal Column", "Kidneys", "Legs", "Colon"],
-        sound: AUDIO,
+        sound: ANG,
         petalIcon: L7,
         positionImg: C7,
         element: " Divine Consciousness"

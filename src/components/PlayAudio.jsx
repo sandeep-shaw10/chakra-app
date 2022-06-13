@@ -84,7 +84,7 @@ export default function PlayAudio({ AUDIO, chant, tailwindStyle }) {
           <audio controls="controls" preload="auto" autobuffer="true" style={{ display: "none" }} ref={audioRef} onEnded={playLoop}>
             <source src={AUDIO} />
           </audio>
-          <button className='flex justify-center py-4' onClick={playPause}> { !isPaused ? <Play/>: <Pause/>} </button>
+          <button className='flex justify-center py-4 focus-visible:outline-none' onClick={playPause}> { !isPaused ? <Play/>: <Pause/>} </button>
           <input className='w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer range-lg dark:bg-slate-600' type="range" min="0" max={freq} value={count || 1} onChange={onValueChange}></input>
         </div>
 

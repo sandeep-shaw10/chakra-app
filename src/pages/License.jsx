@@ -11,7 +11,7 @@ export default function License() {
     {
       question: "Audio",
       answer:
-        "Youtube Channel: xyz",
+        "Youtube Channel: Cozy Cycles",
     },
     {
       question: "Data",
