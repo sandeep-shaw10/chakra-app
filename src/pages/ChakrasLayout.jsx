@@ -1,7 +1,7 @@
 import React from 'react'
 import PlayAudio from '../components/PlayAudio'
 import FadeIn from 'react-fade-in'
-import ChakraLayout from '../components/Layout/ChantLayout'
+import MainLayout from '../components/Layout/MainLayout'
 
 
 export default function ChakrasLayout({ data }) {
@@ -23,7 +23,7 @@ export default function ChakrasLayout({ data }) {
   
   return (
 
-    <ChakraLayout style={tailwindStyle[1]}>
+    <MainLayout>
 
       <FadeIn>
       <div className='flex flex-row justify-center'>
@@ -80,8 +80,10 @@ export default function ChakrasLayout({ data }) {
         </div>
       </div>
 
-      <PlayAudio AUDIO={sound} chant={chant} tailwindStyle={tailwindStyle[0]}/>
+      <div className={`${tailwindStyle[1].slice(10)}`}>
+        <PlayAudio AUDIO={sound} chant={chant} tailwindStyle={tailwindStyle[0]}/>
+      </div>
 
-    </ChakraLayout>
+    </MainLayout>
   )
 }

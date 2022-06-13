@@ -40,10 +40,13 @@ export default function PlayAudio({ AUDIO, chant, tailwindStyle }) {
   
   
     const playPause = () => {
-        if(!isPaused)
-            audioRef.current.play()
-        else
-            audioRef.current.pause()
+        if(!isPaused) { audioRef.current.play() }
+        else { audioRef.current.pause() }
+
+        if(!isPaused && isComplete){
+          dispatch({ type: ACTION.RESTART })
+        }
+
         dispatch({type: ACTION.TOGGLE})
     }
   
@@ -85,14 +88,14 @@ export default function PlayAudio({ AUDIO, chant, tailwindStyle }) {
             <source src={AUDIO} />
           </audio>
           <button className='flex justify-center py-4 focus-visible:outline-none' onClick={playPause}> { !isPaused ? <Play/>: <Pause/>} </button>
-          <input className='w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer range-lg dark:bg-slate-600' type="range" min="0" max={freq} value={count || 1} onChange={onValueChange}></input>
+          <input className='w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer range-lg dark:bg-slate-600' type="range" min="0" max={freq} value={count-1} onChange={onValueChange}></input>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2'>
           <div className='flex flex-col items-center justify-center py-6 px-8'>
             <span className='text-6xl font-bold pb-4'>{chant}</span>
             <span className='text-2xl font-semibold'>
-            { isComplete ? `Done`: `${(Math.round((count/freq)*100))}% Completed`}
+            { isComplete ? `Done`: `${(Math.round(((count-1)/freq)*100))}% Completed`}
             </span>
           </div>
           <div className='flex flex-col items-center justify-center py-6 px-8'>

@@ -53,7 +53,7 @@ export function SunIcon(){
             5 0 0 1 7.07 0zm91.93 21.21a5 5 0 0 1-7.07 0l-14.14-14.14a5 5 0 0 1 7.07-7.07l14.14 14.14a5 
             5 0 0 1 0 7.07zM44.64 44.65a5 5 0 0 1-7.07 0L23.43 30.5a5 5 0 1 1 7.07-7.07l14.14 14.14a5 
             5 0 0 1 0 7.08z" stroke="none">
-                <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+                <animate attributeName="opacity" values="0.25;1;0.25" dur="3s" repeatCount="indefinite" />
             </path>
         </svg>
     </>

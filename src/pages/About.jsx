@@ -19,8 +19,8 @@ export default function About() {
 
               <div className='grid justify-items-center my-8'>
                 <div className='flex flex-col items-center justify-center' >
-                <div className='text-4xl font-semibold'>About Us</div>
-                  <div className='text-xl mb-2'>
+                <div className='text-4xl font-semibold text-orange-500 dark:text-slate-500'>About Us</div>
+                  <div className='px-12 text-xl mb-2  text-gray-700 dark:text-gray-300'>
                     A simple Progressive Web Application Made using ReactJS, Tailwind CSS and Workbox. All in One 
                     Website, Desktop and Mobile Application
                   </div>
@@ -35,8 +35,8 @@ export default function About() {
           </div>
 
           <div className='text-center'>
-            <span className="text-4xl font-semibold">Made With</span>
-            <div className="grid grid-cols-3 gap-3">
+            <span className="text-4xl font-semibold text-orange-500 dark:text-slate-500">Made With</span>
+            <div className="grid grid-cols-3 gap-3 md:mx-12 md:px-12">
               <div className='p-4 grid items-center'><TailwindCSS/></div>
               <div className='p-4 grid items-center'><PWA/></div>
               <div className='p-4 grid items-center'><ReactJs/></div>

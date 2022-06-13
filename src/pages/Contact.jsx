@@ -15,8 +15,8 @@ export default function Contact() {
 
             <div className="grid justify-items-center my-8">
               <div className="flex flex-col items-center justify-center">
-                <div className="text-4xl font-semibold">Get in Touch</div>
-                <div className="text-xl mb-2">
+                <div className="text-4xl font-semibold text-orange-500 dark:text-slate-500">Get in Touch</div>
+                <div className="px-12 text-xl mb-2 text-gray-700 dark:text-gray-300">
                   A simple Progressive Web Application Made using ReactJS,
                   Tailwind CSS and Workbox. All in One Website, Desktop and
                   Mobile Application
