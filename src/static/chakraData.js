@@ -35,7 +35,8 @@ const ChakraData = [
             "bg-red-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-red-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-red-900 dark:text-red-200",
-            "bg-red-100 text-red-900 dark:bg-red-600 dark:text-red-200"
+            "bg-red-100 text-red-900 dark:bg-red-600 dark:text-red-200",
+            "text-red-600 dark:text-red-400"
         ],
         chant: "LAM",
         positionBottom: 1,
@@ -59,7 +60,8 @@ const ChakraData = [
             "bg-orange-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-orange-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-orange-900 dark:text-orange-200",
-            "bg-orange-100 text-orange-800 dark:bg-orange-600 dark:text-orange-200"
+            "bg-orange-100 text-orange-800 dark:bg-orange-600 dark:text-orange-200",
+            "text-orange-600 dark:text-orange-400"
         ],
         chant: "VAM",
         positionBottom: 2,
@@ -83,7 +85,8 @@ const ChakraData = [
             "bg-amber-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-amber-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-amber-900 dark:text-amber-200",
-            "bg-amber-100 text-amber-800 dark:bg-amber-600 dark:text-amber-200"
+            "bg-amber-100 text-amber-800 dark:bg-amber-600 dark:text-amber-200",
+            "text-amber-600 dark:text-amber-400"
         ],
         chant: "RAM",
         positionBottom: 3,
@@ -107,7 +110,8 @@ const ChakraData = [
             "bg-emerald-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-emerald-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-emerald-900 dark:text-emerald-200",
-            "bg-emerald-100 text-emerald-800 dark:bg-emerald-600 dark:text-emerald-200"
+            "bg-emerald-100 text-emerald-800 dark:bg-emerald-600 dark:text-emerald-200",
+            "text-emerald-600 dark:text-emerald-400"
         ],
         chant: "YAM",
         positionBottom: 4,
@@ -131,7 +135,8 @@ const ChakraData = [
             "bg-cyan-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-cyan-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-cyan-900 dark:text-cyan-200",
-            "bg-cyan-100 text-cyan-800 dark:bg-cyan-600 dark:text-cyan-200"
+            "bg-cyan-100 text-cyan-800 dark:bg-cyan-600 dark:text-cyan-200",
+            "text-cyan-600 dark:text-cyan-400"
         ],
         chant: "HAM",
         positionBottom: 6,
@@ -155,7 +160,8 @@ const ChakraData = [
             "bg-indigo-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-indigo-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-indigo-900 dark:text-indigo-200",
-            "bg-indigo-100 text-indigo-800 dark:bg-indigo-600 dark:text-indigo-200"
+            "bg-indigo-100 text-indigo-800 dark:bg-indigo-600 dark:text-indigo-200",
+            "text-indigo-600 dark:text-indigo-400"
         ],
         chant: "AUM",
         positionBottom: 6,
@@ -179,7 +185,8 @@ const ChakraData = [
             "bg-fuchsia-400",
             "max-w-sm rounded-lg shadow-sm hover:shadow-lg mb-6 mx-auto bg-fuchsia-200 dark:bg-gray-800 dark:border-gray-700",
             "text-xl sm:text-2xl font-semibold text-fuchsia-900 dark:text-fuchsia-200",
-            "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-600 dark:text-fuchsia-200"
+            "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-600 dark:text-fuchsia-200",
+            "text-fuchsia-600 dark:text-fuchsia-400"
         ],
         chant: "ANG",
         positionBottom: 7,

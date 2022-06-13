@@ -38,7 +38,7 @@ export default function ChakrasLayout({ data }) {
             <div className="flex flex-row lg:justify-center">
               <img alt="test" src={petalIcon} />
             </div>
-            <h2 className={`text-base font-semibold tracking-wide uppercase`}>{name}</h2>
+            <h2 className={`text-base font-semibold tracking-wide uppercase ${tailwindStyle[6] ?? ''}`}>{name}</h2>
             <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-800 sm:text-4xl">The {sanskrit}</p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               The position of {name} from the base of the lower body is at <span className='font-bold'>{positionBottom}</span>. <br/>
