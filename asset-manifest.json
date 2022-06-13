@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chakra-app/static/css/main.a2a99e8e.css",
-    "main.js": "/chakra-app/static/js/main.534b3713.js",
+    "main.css": "/chakra-app/static/css/main.a56b5291.css",
+    "main.js": "/chakra-app/static/js/main.b1c608ee.js",
     "static/media/ANG.mp3": "/chakra-app/static/media/ANG.81d1b519444e6caab9da.mp3",
     "static/media/LAM.mp3": "/chakra-app/static/media/LAM.c187a3813b04a34c05b0.mp3",
     "static/media/RAM.mp3": "/chakra-app/static/media/RAM.3fb82f712a8d45e446a0.mp3",
@@ -18,11 +18,11 @@
     "static/media/Chakra-07.png": "/chakra-app/static/media/Chakra-07.59ea6c2987365f428ac9.png",
     "static/media/Chakra-02.png": "/chakra-app/static/media/Chakra-02.bc3a92ef7e1fba4a282c.png",
     "index.html": "/chakra-app/index.html",
-    "main.a2a99e8e.css.map": "/chakra-app/static/css/main.a2a99e8e.css.map",
-    "main.534b3713.js.map": "/chakra-app/static/js/main.534b3713.js.map"
+    "main.a56b5291.css.map": "/chakra-app/static/css/main.a56b5291.css.map",
+    "main.b1c608ee.js.map": "/chakra-app/static/js/main.b1c608ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a99e8e.css",
-    "static/js/main.534b3713.js"
+    "static/css/main.a56b5291.css",
+    "static/js/main.b1c608ee.js"
   ]
 }
