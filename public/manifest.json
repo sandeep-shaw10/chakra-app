@@ -33,34 +33,9 @@
       "purpose": "maskable"
     }
   ],
-  "shortcuts" : [
-    {
-      "name": "Get Started",
-      "short_name": "Chakras",
-      "url": "/chakra",
-      "description": "List of 7 Chakra",
-      "icons":[{
-        "src": "power.png",
-        "sizes": "32x32",
-        "type": "image/png",
-        "purpose": "any"
-      }]
-    },
-    {
-      "name": "Get in Touch",
-      "short_name": "Contact",
-      "url": "/contact",
-      "description": "Contribute & Enquiry",
-      "icons":[{
-        "src": "call.png",
-        "sizes": "32x32",
-        "type": "image/png",
-        "purpose": "any"
-      }]
-    }
-  ],
   "theme_color": "#1e293b",
   "background_color": "#1e293b",
   "display": "standalone",
-  "start_url": "/"
+  "scope": "https://sandeep-shaw10.github.io/chakra-app/",
+  "start_url": "https://sandeep-shaw10.github.io/chakra-app/"
 }
