@@ -70,7 +70,7 @@ export default function Nav() {
               </li>
             }) }
             <li>
-              <button className='py-4 pl-4 md:p-0' onClick={changeTheme}>{darkTheme ? <MoonIcon/>: <SunIcon/>}</button>
+              <button className='py-4 pl-4 md:p-0 focus-visible:outline-none' onClick={changeTheme}>{darkTheme ? <MoonIcon/>: <SunIcon/>}</button>
             </li>
           </ul>
         </div>

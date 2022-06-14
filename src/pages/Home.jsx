@@ -41,7 +41,7 @@ export default function Home() {
             data.map(({head, sub, ele, btn, link}, index) => {
               return <div className='my-12 text-center' key={index}>
               <div className='grid grid-cols-1 md:grid-cols-2 md:mx-12'>
-                <div className={`${ (index % 2 === 0) ? '' : 'md:order-last'} p-8`} >{ ele }</div>
+                <div className={`${ (index % 2 === 0) ? '' : 'md:order-last'} md:p-8`} >{ ele }</div>
                 <div className='grid justify-items-center my-8'>
                   <div className='flex flex-col items-center justify-center' >
                   <div className='text-4xl font-semibold mb-2 text-orange-500 dark:text-slate-500'>{ head }</div>
