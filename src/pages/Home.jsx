@@ -12,7 +12,7 @@ const data = [
     sub:"Unleash Your Energy Centers", 
     btn:"Get Started", 
     link:"/chakra",
-    ele: <HomeYoga/>
+    ele: <AboutIcon />
   },
 
   {
@@ -20,7 +20,7 @@ const data = [
     sub:"A simple Progressive Web Application Made using ReactJS, Tailwind CSS and Workbox. All in One Website, Desktop and Mobile Application", 
     btn:"About", 
     link:"/about",
-    ele: <AboutIcon />
+    ele: <HomeYoga/>
   },
 
   {

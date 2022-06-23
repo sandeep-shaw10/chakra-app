@@ -27,7 +27,7 @@ export default function ChakrasLayout({ data }) {
 
       <FadeIn>
       <div className='flex flex-row justify-center'>
-        <img alt="test" src={positionImg}/>
+        <img alt="test" src={positionImg} loading="lazy"/>
       </div>
       </FadeIn>
 
