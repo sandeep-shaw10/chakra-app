@@ -177,7 +177,7 @@ const ChakraData = [
     {
         path: "crown",
         name: "Crown Chakra",
-        sanskrit: "Vishuddha",
+        sanskrit: "Sahasrara",
         color: "violet",
         tailwindStyle: [
             "App_btn bg-fuchsia-300 text-fuchsia-900 dark:bg-fuchsia-600 dark:text-slate-300",

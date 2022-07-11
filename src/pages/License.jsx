@@ -25,7 +25,7 @@ export default function License() {
       question: "LICENSE",
       answer:
         "MIT License",
-      link: "http://localhost:3000/license"
+      link: "https://github.com/sandeep-shaw10/chakra-app/blob/master/LICENSE"
     },
   ];
 
