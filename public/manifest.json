@@ -33,8 +33,24 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#1e293b",
-  "background_color": "#1e293b",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Get Started",
+      "url": "https://sandeep-shaw10.github.io/chakra-app/",
+      "icons": [{ "src": "logo192_.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Meditate",
+      "short_name": "Meditate",
+      "description": "Choose your Meditation Mantra",
+      "url": "https://sandeep-shaw10.github.io/chakra-app/chakra",
+      "icons": [{ "src": "logo192_.png", "sizes": "192x192" }]
+    }
+  ],
+  "theme_color": "#fbb03b",
+  "background_color": "#fbb03b",
   "display": "standalone",
   "scope": "https://sandeep-shaw10.github.io/chakra-app/",
   "start_url": "https://sandeep-shaw10.github.io/chakra-app/"
